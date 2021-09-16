@@ -9,6 +9,7 @@ STEPS :
      python export_model.py
 	 
 2. run docker in terminal
+
      docker run -t --rm -p 8501:8501 -v "tensorflow-server:/models/test" -e MODEL_NAME=test tensorflow/serving	 
 	 
 	 
